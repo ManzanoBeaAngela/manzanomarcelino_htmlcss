@@ -1,0 +1,206 @@
+/*External CSS*
+
+/*Home*/
+body{
+	background-color: maroon;
+	font-family: Century Gothic;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+div.wrapper{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 20px;
+	border-top: 10px solid gold;
+	border-bottom: 10px solid gold;
+
+}
+div.header{
+	padding: 1px 0 0;
+}
+div.header img{
+	width: 997px;
+	height: 250px;
+}
+div.nav{
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+div.nav ul{
+	margin: 0;
+	padding: 10px 0;
+}
+div.nav ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+div.nav ul li a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 10px;
+}
+div.nav ul li a.active{
+	color: #D35400;
+}
+div.nav ul li a:hover{
+	background-color: maroon;
+	color: white;
+}
+div.banner, div.banner img{
+	width: 1000px;
+	height: 300px;
+}
+div.main{
+	min-height: 500px;
+
+}
+div.left-side-bar{
+	width: 190px;
+	float: left;
+	border: 1px solid black;
+	min-height: 50px;
+	margin: 10px 10px 10px 0;
+}
+div.left-side-bar h2{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	color: maroon;
+}
+div.left-side-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+div.left-side-bar ul li{
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid white;
+}
+div.left-side-bar ul li a{
+	display: block;
+	width: 100%;
+	padding: 5px 0;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+	background-color: maroon;
+}
+div.left-side-bar ul li a:hover{
+	color: gold;
+}
+div.content{
+	width: 550px;
+	float: left;
+	min-height: 500px;
+	margin: 10px;
+}
+
+div.content img{
+	width: 700px;
+	height: 900px;
+}
+div.map{
+	width: 450px;
+	height: 250px;
+	padding: 10px;
+}
+div.location img{
+	width: 750px;
+	height: 300px;
+	padding-right: none;
+	padding: 10px;
+	
+}
+div.location img:nth-child(1){
+	width: 750px;
+	height: 300px;
+}
+div.content h1{
+	padding: 0px;
+	margin: 0px;
+	color: maroon;
+	font-size: 30px;
+	border-bottom: 1px dotted black;
+}
+div.content h2{
+	color: orange;
+}
+div.content p{
+	text-align: justify;
+	line-height: 1.5;
+	text-indent: 40px;
+}
+div.right-side-bar{
+	border: 1px solid black;
+	width: 210px;
+	min-height: 50px;
+	margin: 10px 0 10px 5px;
+	float: right;
+}
+div.right-side-bar ul{
+	margin: 0px;
+	padding: 20px;
+}
+div.right-side-bar ul li{
+	list-style-type: none;
+}
+div.right-side-bar ul li img{
+	width: 100%;
+
+
+}
+div.footer{
+	clear: both;
+	border-top: 1px solid black;
+	padding: 10px;
+	text-align: center;
+}
+div.footer p{
+	font-weight: bold;
+}
+div.footer img{
+	margin: 0;
+	padding: 0;
+}
+form{
+	background-color: maroon;
+	border: 1px solid black;
+	border-radius: 10px;
+	margin: 10px auto;
+	color: white;
+	padding: 20px;
+	width: 300px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+}
+form input{
+	padding: 10px;
+	/*box-sizing: border-box;*/
+}
+input[type="submit"], input[type="reset"]{
+	background-color: #d77724; /*Gold-ish color */
+	color: #fff; /*white text */
+	padding: 10px 20px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+input[type="submit"]:hover, input[type="reset"]:hover{
+	background-color: orange;
+	transition: 0.5s ease-in-out;
+}
+select{
+	padding: 10px;
+}
+textarea{
+	resize: none;
+}
+#favColor{
+	padding: 0px;
+}
